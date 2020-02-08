@@ -14,7 +14,7 @@ The traing and testing data used in our paper is from the paper " Sparse Recover
 
 
 ## Usage
-### 0. Download the DeSCI repository
+### 0. Download the  repository
 
 Requirements are tensorflow, numpy, scipy.
 
