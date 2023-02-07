@@ -123,7 +123,7 @@ for epoch in range(1):
         _ = sess.run( d_optim, feed_dict={images_input: train_input, phase_train_placeholder: True, ground_truth: training_data_batch})
 
 
-        print 'training_mse:',train_err
+        print('training_mse:',train_err)
         with open(os.path.join(result_dir, 'psnr.txt'), 'at') as f:
             f.write('train_mse: %.5f\n' % (train_err))
 

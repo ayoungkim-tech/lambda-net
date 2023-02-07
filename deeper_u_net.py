@@ -122,7 +122,7 @@ def encoder_decoder(inputs, is_training=True,
                 net = slim.conv2d(net, 128, 3, stride=1)
                 net = slim.conv2d(net, 128, 3, stride=1)
                 net=slim.conv2d(net,128,3,stride=1)
-		net = attention(net, 128, scope='att')
+                attention(net, 128, scope='att')
                 #(bs, 50, 128, 128)
 
 

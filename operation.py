@@ -14,7 +14,7 @@ from operator import itemgetter
 def load_hscnn():
     imgs = []
     for i in range(150):
-        print i
+        print(i)
         path = 'training_data/%d.mat' % i
         img = sio.loadmat(path)['data']
         imgs.append(img)
